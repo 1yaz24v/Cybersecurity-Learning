@@ -13,5 +13,7 @@ Real-world Analogy:
 Authentication is like shwoing your ID at the building entrance.
 Authorization is like being allowed to enter specific rooms in that building based on your role. 
 
+Together, these mechanisms help ensure that the right people have the right access to the right resources and nothing more.
+
 
 
