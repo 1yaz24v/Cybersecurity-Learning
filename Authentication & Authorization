@@ -1,0 +1,17 @@
+Authenticatin & Authorization 
+
+Authorization and authentication are two essential components of access control in the field of cybersecurity. While the terms are often used together, they server very different purposes and understanding the difference is key to desigining secure systems.
+Before someone can do anything in a system, they must first prove who they are and then the system must decide what they're allowed to do.
+
+1) Authentication ( Is about Identity) - verifying that a user is who they claim to be. 
+2) Authorization (Is about Privileges) - controlling what actions or data tha user can access after they've been authenticated. 
+
+Together, these mechanisms help ensure that he right people have the right access to the right resources and nothing more. 
+
+
+Real-world Analogy:
+Authentication is like shwoing your ID at the building entrance.
+Authorization is like being allowed to enter specific rooms in that building based on your role. 
+
+
+
