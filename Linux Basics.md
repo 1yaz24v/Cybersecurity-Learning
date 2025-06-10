@@ -11,7 +11,7 @@
   <li>
     <strong>Core Linux Concepts</strong>
 
-    <ol>
+<ol>
       <li>
         <strong>File System Hierarchy</strong>
         <p>Linux organizes files in a tree-like structure starting from the root directory /. Each folder has a specific purpose:</p>
@@ -32,7 +32,7 @@
         <p>This structure keeps Linux systems organized, secure, and efficient to manage.</p>
       </li>
 
-      <li>
+<li>
         <strong>Command-Line Interface (CLI)</strong>
         <p>The CLI is a core tool in Linux system administration, allowing users to interact with the system through text-based commands. Key functions include:</p>
         <ul>
@@ -44,7 +44,7 @@
         <p>Using the CLI provides more control, flexibility, and efficiency compared to graphical interfaces.</p>
       </li>
 
-      <li>
+<li>
         <strong>Package Management</strong>
         <p>Linux uses package managers to install, update, and remove software. These tools also handle software dependencies, helping maintain system stability.</p>
         <ul>
@@ -75,7 +75,7 @@
     <strong>File and System Integrity</strong>
     <p>File and system integrity means making sure that important files and system settings are not changed, damaged, or tampered with—either by mistake or by malicious users. Linux protects system integrity in the following ways:</p>
 
-    <ol>
+<ol>
       <li>
         <strong>File Permissions</strong>
         <ul>
@@ -85,7 +85,7 @@
         </ul>
       </li>
 
-      <li>
+<li>
         <strong>User Roles</strong>
         <ul>
           <li>Linux separates regular users from the root user (the superuser with full control).</li>
@@ -93,7 +93,7 @@
         </ul>
       </li>
 
-      <li>
+<li>
         <strong>Mandatory Access Control (MAC)</strong>
         <ul>
           <li>Tools like AppArmor and SELinux add an extra layer of security.</li>
@@ -102,7 +102,7 @@
         </ul>
       </li>
 
-      <li>
+<li>
         <strong>File Integrity Monitoring Tools</strong>
         <ul>
           <li>Tools like AIDE (Advanced Intrusion Detection Environment) or Tripwire can take a snapshot of important files.</li>
@@ -111,7 +111,7 @@
         </ul>
       </li>
 
-      <li>
+<li>
         <strong>Audit Logs</strong>
         <ul>
           <li>Linux can record system events (like who accessed which file) using audit logs.</li>
@@ -124,8 +124,7 @@
   <li>
     <strong>Network and Firewall Security</strong>
     <p>A crucial component of protecting any Linux system is network security, particularly those that are online or run in multi-user settings. Linux offers strong configurations and tools to help defend against potential network-based attacks, malicious traffic, and unauthorized access. Administrators can efficiently manage and protect the system's network by utilizing intrusion prevention tools, firewalls, secure remote access protocols, and system logging. Linux provides a solid basis for preserving network security when paired with consistent updates and appropriate service management.</p>
-
-    <ul>
+<ul>
       <li><strong>Firewalls:</strong>
         <ul>
           <li>Linux uses tools like iptables, nftables, and ufw to control network traffic.</li>
@@ -133,7 +132,7 @@
         </ul>
       </li>
 
-      <li><strong>SSH (Secure Shell):</strong>
+<li><strong>SSH (Secure Shell):</strong>
         <ul>
           <li>Used for secure remote access.</li>
           <li>Best practices include:
@@ -146,26 +145,23 @@
         </ul>
       </li>
 
-      <li><strong>Intrusion Prevention Tools:</strong>
+<li><strong>Intrusion Prevention Tools:</strong>
         <ul>
           <li>Tools like Fail2Ban monitor login attempts and block IPs that show suspicious behavior (e.g., brute-force attacks).</li>
         </ul>
       </li>
-
-      <li><strong>System Logs:</strong>
+<li><strong>System Logs:</strong>
         <ul>
           <li>Logs stored in /var/log/ help monitor network activity.</li>
           <li>Important logs include auth.log (login attempts) and syslog/messages (general system events).</li>
         </ul>
       </li>
-
-      <li><strong>Regular Updates:</strong>
+<li><strong>Regular Updates:</strong>
         <ul>
           <li>Keeping the system and software up to date helps fix known vulnerabilities and enhances network security.</li>
         </ul>
       </li>
-
-      <li><strong>Minimal Service Exposure:</strong>
+<li><strong>Minimal Service Exposure:</strong>
         <ul>
           <li>Only necessary services and open ports should be enabled to reduce the attack surface.</li>
         </ul>
@@ -176,8 +172,7 @@
   <li>
     <strong>Software and Update Management</strong>
     <p>Maintaining current versions of software is very important for both the security and stability of a Linux system. The majority of Linux based OSes leverage package managers like apt, yum and dnf to install, update and remove software. These tools ensure that software is sourced from trustworthy origins and all dependencies are kept under control. Frequent new updates help patch known holes, minimizes the need to use backdoors, and improves performance. It is also a good policy for system administrators to periodically check for updates and apply them promptly, especially on servers or systems connected to internet.</p>
-
-    <ul>
+<ul>
       <li>Use apt (Debian/Ubuntu) or yum/dnf (Red Hat/CentOS) for managing packages.</li>
       <li>Only install software from trusted and official repositories.</li>
       <li>Regularly apply system and security updates.</li>
@@ -189,7 +184,7 @@
     <strong>Logging and Monitoring</strong>
     <p>Linux systems keep detailed records of activities and events, which play a crucial role in security checks and problem-solving. These records are kept in the /var/log/ folder and contain info about system operations, user logins, errors, and service activity. Important logs such as auth.log (for authentication), syslog or messages (for system events), and dmesg (for kernel messages) help spot unauthorized access failed login tries, or odd system behavior. Tools like Logwatch, Syslog, and journalctl (for systemd-based systems) let admins look at log data well. Keeping an eye on logs helps find security problems and gives insights into how healthy the system is.</p>
 
-    <ul>
+<ul>
       <li>Logs are stored in /var/log/ (e.g., auth.log, syslog, dmesg).</li>
       <li>Use journalctl for viewing logs on systemd systems.</li>
       <li>Monitor logs for failed login attempts, system errors, and unusual activity.</li>
